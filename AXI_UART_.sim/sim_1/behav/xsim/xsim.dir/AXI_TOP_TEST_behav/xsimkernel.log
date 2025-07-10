@@ -2,3 +2,6 @@ Running: xsim.dir/AXI_TOP_TEST_behav/xsimk.exe -simmode gui -wdb AXI_TOP_TEST_be
 Design successfully loaded
 Design Loading Memory Usage: 7060 KB (Peak: 7060 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8632 KB (Peak: 8632 KB)
+Simulation CPU Usage: 29483 ms

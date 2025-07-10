@@ -1,0 +1,5 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Starting AW channel test...
+DF===== A
+$finish called at time : 280753795500 ps : File "C:/Users/demon/INTERNSHIP/src_sim_vivado/AXI_UART_/AXI_UART_.srcs/sim_1/imports/new/AXI_TOP_TEST.v" Line 208
