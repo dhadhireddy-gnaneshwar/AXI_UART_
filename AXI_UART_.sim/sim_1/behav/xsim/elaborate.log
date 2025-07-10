@@ -1,0 +1,29 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f17173f64fe45a1a8e11bf5232506a3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AXI_TOP_TEST_behav xil_defaultlib.AXI_TOP_TEST xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AXI_MASTER
+Compiling module xil_defaultlib.FIFO(DATA_WIDTH=50)
+Compiling module xil_defaultlib.AW_FIFO_default
+Compiling module xil_defaultlib.FIFO(DATA_WIDTH=73)
+Compiling module xil_defaultlib.W_FIFO_default
+Compiling module xil_defaultlib.WRITE_BUFFER
+Compiling module xil_defaultlib.AR_FIFO_default
+Compiling module xil_defaultlib.READ_BUFFER
+Compiling module xil_defaultlib.WRITE_BUFFER_CONTROLLER(W_DEPTH=...
+Compiling module xil_defaultlib.TIMER(COUNT=32'b1111111111111111...
+Compiling module xil_defaultlib.READ_BUFFER_CONTROLLER(W_DEPTH=3...
+Compiling module xil_defaultlib.UART_FIFO(DATA_WIDTH=8,DEPTH=550...
+Compiling module xil_defaultlib.UART_FIFO(DATA_WIDTH=64)
+Compiling module xil_defaultlib.UART_CONTROLLER(W_DEPTH=32,R_DEP...
+Compiling module xil_defaultlib.BAUD_GENRATOR
+Compiling module xil_defaultlib.AXI_TOP_WRAPPER
+Compiling module xil_defaultlib.AXI_TOP_TEST
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AXI_TOP_TEST_behav

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k410tlfbv676-2L" LaunchTime="1752125288">
+  <File Type="PA-TCL" Name="AXI_TOP_WRAPPER.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="AXI_TOP_WRAPPER_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="AXI_TOP_WRAPPER_reports.tcl"/>
+  <File Type="RDS-RDS" Name="AXI_TOP_WRAPPER.vds"/>
+  <File Type="RDS-UTIL" Name="AXI_TOP_WRAPPER_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="AXI_TOP_WRAPPER_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="AXI_TOP_WRAPPER.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="AXI_TOP_WRAPPER_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="AXI_TOP_WRAPPER_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/AR_FIFO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/AR_FIFO.v"/>
+        <Attr Name="ImportTime" Val="1748436217"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AW_FIFO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/AW_FIFO.v"/>
+        <Attr Name="ImportTime" Val="1748520535"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AXI_MASTER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/AXI_MASTER.v"/>
+        <Attr Name="ImportTime" Val="1750661322"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/BAUD_GENRATOR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/BAUD_GENRATOR.v"/>
+        <Attr Name="ImportTime" Val="1750411617"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FIFO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/FIFO.v"/>
+        <Attr Name="ImportTime" Val="1749029780"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/READ_BUFFER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/READ_BUFFER.v"/>
+        <Attr Name="ImportTime" Val="1749120256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/READ_BUFFER_CONTROLLER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/READ_BUFFER_CONTROLLER.v"/>
+        <Attr Name="ImportTime" Val="1750656830"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/TIMER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/TIMER.v"/>
+        <Attr Name="ImportTime" Val="1749208134"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_CONTROLLER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/UART_CONTROLLER.v"/>
+        <Attr Name="ImportTime" Val="1749820615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_FIFO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/UART_FIFO.v"/>
+        <Attr Name="ImportTime" Val="1749463628"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/WRITE_BUFFER_CONTROLLER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/WRITE_BUFFER_CONTROLLER.v"/>
+        <Attr Name="ImportTime" Val="1750655709"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/WRITE_CONTROLLER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/WRITE_CONTROLLER.v"/>
+        <Attr Name="ImportTime" Val="1747647054"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/W_FIFO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/W_FIFO.v"/>
+        <Attr Name="ImportTime" Val="1748579890"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AXI_MASTER_WRAPPER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/AXI_MASTER_WRAPPER.v"/>
+        <Attr Name="ImportTime" Val="1750656115"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_UART.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/R_FIFO.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/R_FIFO.v"/>
+        <Attr Name="ImportTime" Val="1748925629"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/WRITE_BUFFER.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/WRITE_BUFFER.v"/>
+        <Attr Name="ImportTime" Val="1749042439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AXI_SLAVE.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AXI_UART_V2/AXI_UART_V2.srcs/sources_1/new/AXI_SLAVE.v"/>
+        <Attr Name="ImportTime" Val="1747398023"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AXI_TOP_WRAPPER"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/AXI_UART.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/AXI_UART.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design">
+      <Option Id="FlattenHierarchy">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

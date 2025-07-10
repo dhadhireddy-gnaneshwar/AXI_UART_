@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/demon/INTERNSHIP/src_sim_vivado/AXI_UART_/AXI_UART_.sim/sim_1/synth/func/xsim/AXI_TOP_TEST_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AR_FIFO
+INFO: [VRFC 10-311] analyzing module AW_FIFO
+INFO: [VRFC 10-311] analyzing module AXI_MASTER
+INFO: [VRFC 10-311] analyzing module AXI_TOP_WRAPPER
+INFO: [VRFC 10-311] analyzing module BAUD_GENRATOR
+INFO: [VRFC 10-311] analyzing module FIFO
+INFO: [VRFC 10-311] analyzing module FIFO__1
+INFO: [VRFC 10-311] analyzing module FIFO__parameterized0
+INFO: [VRFC 10-311] analyzing module READ_BUFFER
+INFO: [VRFC 10-311] analyzing module READ_BUFFER_CONTROLLER
+INFO: [VRFC 10-311] analyzing module TIMER
+INFO: [VRFC 10-311] analyzing module UART_CONTROLLER
+INFO: [VRFC 10-311] analyzing module UART_FIFO
+INFO: [VRFC 10-311] analyzing module UART_FIFO__parameterized0
+INFO: [VRFC 10-311] analyzing module WRITE_BUFFER
+INFO: [VRFC 10-311] analyzing module WRITE_BUFFER_CONTROLLER
+INFO: [VRFC 10-311] analyzing module W_FIFO
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/demon/INTERNSHIP/src_sim_vivado/AXI_UART_/AXI_UART_.srcs/sim_1/imports/new/AXI_TOP_TEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_TOP_TEST
+INFO: [VRFC 10-2458] undeclared symbol rlast, assumed default net type wire [C:/Users/demon/INTERNSHIP/src_sim_vivado/AXI_UART_/AXI_UART_.srcs/sim_1/imports/new/AXI_TOP_TEST.v:98]
+WARNING: [VRFC 10-3380] identifier 'count' is used before its declaration [C:/Users/demon/INTERNSHIP/src_sim_vivado/AXI_UART_/AXI_UART_.srcs/sim_1/imports/new/AXI_TOP_TEST.v:152]
+WARNING: [VRFC 10-3380] identifier 'mem' is used before its declaration [C:/Users/demon/INTERNSHIP/src_sim_vivado/AXI_UART_/AXI_UART_.srcs/sim_1/imports/new/AXI_TOP_TEST.v:207]

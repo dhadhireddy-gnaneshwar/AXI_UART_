@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"AXI_TOP_TEST_func_synth.v" \
+"../../../../../AXI_UART_.srcs/sim_1/imports/new/AXI_TOP_TEST.v" \
+
+# Do not sort compile order
+nosort
